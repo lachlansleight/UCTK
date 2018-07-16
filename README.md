@@ -1,4 +1,6 @@
 # UCTK
+UCTK stands for Unity Compute Tool Kit. It's intended to be an open-sourced, modular approach to working with Compute Shaders in Unity.
+
 If you are reading this, you've come a little bit too early!
 
 The current state of the repo is a straight migration of the current form of Foliar.Compute - a plugin I wrote because I found myself writing the same Compute-Shader-Wrangling code again and again, and being frustrated by things like incorrect struct strides, incorrect kernal references, etc. It's been updated many times since I first wrote it, but those updates are scattered across mamy commits, across many repositories. So this repo is as much an effort for me to centralise my own work as it is to be a placeholder for future open-source maintanence.
