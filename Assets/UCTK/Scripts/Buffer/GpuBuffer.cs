@@ -2,8 +2,15 @@
 
 namespace UCTK {
 
+	/// <summary>
+	/// Component for managing StructuredBuffer shader objects
+	/// </summary>
 	public class GpuBuffer : MonoBehaviour {
 
+		/// <summary>
+		/// Reference to the Buffer Setup component responsible for initializing this buffer
+		/// Will attempt to find one on this GameObject if null
+		/// </summary>
 		public BufferSetup BufferSetup;
 
 		/// <summary>
@@ -36,6 +43,10 @@ namespace UCTK {
 			}
 		}
 
+		/// <summary>
+		/// The size of the compute buffer
+		/// </summary>
+		/// <value></value>
 		public int Count {
 			get {
 				return Buffer.count;
