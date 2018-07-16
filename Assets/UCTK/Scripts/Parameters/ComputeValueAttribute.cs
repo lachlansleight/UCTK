@@ -1,4 +1,4 @@
-﻿namespace Foliar.Compute {
+﻿namespace UCTK {
 
 	[System.AttributeUsage(System.AttributeTargets.All, Inherited = true, AllowMultiple = true)]
 	class ComputeValue : System.Attribute {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Foliar.Compute {
+namespace UCTK {
 
 	public class DispatchQueueItem : MonoBehaviour {
 		public ComputeDispatcher Dispatcher;

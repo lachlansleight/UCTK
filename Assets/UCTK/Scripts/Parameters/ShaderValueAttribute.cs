@@ -1,4 +1,4 @@
-﻿namespace Foliar.Compute {
+﻿namespace UCTK {
 
 	[System.AttributeUsage(System.AttributeTargets.All, Inherited = false, AllowMultiple = true)]
 	sealed class ShaderValue : System.Attribute {

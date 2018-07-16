@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System;
 
-namespace Foliar.Compute {
+namespace UCTK {
 
 	public class ComputeParameterSetter : MonoBehaviour {
 		public ShaderValues shaderValues;

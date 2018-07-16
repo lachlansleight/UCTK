@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace Foliar.Compute {
+namespace UCTK {
 
 	[CustomEditor(typeof(GpuAppendBuffer))]
 	public class GPUAppendBufferInspector : GpuBufferInspector {

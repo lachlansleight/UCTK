@@ -2,7 +2,7 @@
 using UnityEngine;
 using System;
 
-namespace Foliar.Compute {
+namespace UCTK {
 
 	public class MaterialParameterSetter : MonoBehaviour {
 		public ShaderValues shaderValues;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Foliar.Compute {
+namespace UCTK {
 
 	public class GpuBuffer : MonoBehaviour {
 
